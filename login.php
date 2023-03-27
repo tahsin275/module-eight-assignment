@@ -13,7 +13,7 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST') {
 		echo "Both fields are required.";
 	} else {
 		// TODO: Authenticate the user against a database or other data source
-		// For this example, assume the email is the username and the password is 'password'
+		// For this, assume the email is the username and the password is 'password'
 
 		if ($email == 'test@example.com' && $password == 'password') {
-			// Login successful, redirect to welcome page and store first name in
+			// Login successful, redirect to welcome page and store first name in a csv file
